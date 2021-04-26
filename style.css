@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: linear-gradient(#bdc3c7 ,#2c3e50);
+   height: 100vh;
+   
+}
+.clock{
+ 
+    background: url(/images/clockDial1.png) no-repeat;
+    position: relative;
+    width:465px;
+
+    height: 465px;
+
+background-size: 465px 465px;
+}
+.circle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    left: 220px;
+    bottom: 220px;
+    z-index: 41;
+}
+.second-div,.min-div,.hr-div{
+    position: absolute;
+    border: 3px solid black;
+    transform-origin: 0;
+    transform: rotateZ(270deg);
+}
+
+.second-div{
+    
+    top: 50%;
+    left: 233px;
+    width: 135px;
+    border: 3px solid red;
+    transform-origin: 0;
+    z-index: 40;
+   
+   
+}
+.min-div{
+    
+    z-index: 39;
+    
+    top: 50%;
+    left: 233px;
+    width: 120px;
+    
+    
+
+}
+.curr-time{
+color: whitesmoke;
+     position: absolute;
+    top: 80%; 
+    left: 34%;
+background-color: black;
+border-radius: 5px 5px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Jomhuria', cursive;
+}
+.hr-div{
+    
+    z-index: 38;
+  
+   
+    top: 50%;
+    left: 232px;
+    width: 80px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
