@@ -6,18 +6,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-background: linear-gradient(#bdc3c7 ,#2c3e50);
+    background: linear-gradient(#bdc3c7 ,#2c3e50);
    height: 100vh;
    
 }
 .clock{
  
-    background: url(/images/clockDial1.png) no-repeat;
+    background: url("./images/clockDial1.png") no-repeat;
     position: relative;
     width:465px;
-
     height: 465px;
-
 background-size: 465px 465px;
 }
 .circle{
@@ -60,22 +58,19 @@ background-size: 465px 465px;
     
 
 }
-.curr-time{
-color: whitesmoke;
+#current-time{
+    color: whitesmoke;
      position: absolute;
     top: 80%; 
     left: 34%;
-background-color: black;
-border-radius: 5px 5px;
+    background-color: black;
+    border-radius: 5px 5px;
     height: 40px;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Jomhuria', cursive;
 }
 .hr-div{
-    
     z-index: 38;
-  
-   
     top: 50%;
     left: 232px;
     width: 80px;

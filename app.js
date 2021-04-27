@@ -10,9 +10,8 @@ function rotateClock(){
     document.getElementById("hour-hand").style.transform = "rotate(" + hd + "deg)";
     document.getElementById("min-hand").style.transform = "rotate(" + md + "deg)";
     document.getElementById("second-hand").style.transform = "rotate(" + sd + "deg)";
-let output="";
-output=`<h5>${time.toTimeString()}</h5>`
-    document.querySelector('.curr-time').innerHTML=output
+let output=`${time.toTimeString()}`;
+document.querySelector('.curr-time').innerHTML=output;
   
 }
 
