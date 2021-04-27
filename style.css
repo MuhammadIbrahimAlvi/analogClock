@@ -61,12 +61,12 @@ background-size: 465px 465px;
 #current-time{
     color: whitesmoke;
      position: absolute;
-    top: 80%; 
+    top: 85%; 
     left: 34%;
     background-color: black;
     border-radius: 5px 5px;
     height: 40px;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Jomhuria', cursive;
 }
 .hr-div{
