@@ -61,7 +61,7 @@ background-size: 465px 465px;
 #current-time{
     color: whitesmoke;
      position: absolute;
-    top: 85%; 
+    bottom: 45px; 
     left: 34%;
     background-color: black;
     border-radius: 5px 5px;
